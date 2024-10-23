@@ -24,7 +24,7 @@ class OhmFirstYou extends GetView<PageLogic>{
         body: SafeArea(
           child: InAppWebView(
             initialUrlRequest: URLRequest(
-              url: WebUri.uri(Uri.parse(controller.plwys.value)),
+              url: WebUri.uri(Uri.parse(controller.vpnfjl.value)),
             ),
             onWebViewCreated: (c) {
               controller.webViewController = c;

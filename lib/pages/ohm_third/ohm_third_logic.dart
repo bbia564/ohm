@@ -41,7 +41,7 @@ class OhmThirdLogic extends GetxController {
       applicationName: info.appName,
       applicationVersion: info.version,
       applicationIcon: Image.asset(
-        'assets/land.png',
+        'assets/land2.png',
         width: 78,
         height: 78,
       ),
