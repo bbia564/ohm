@@ -11,7 +11,7 @@ class FirstYaView extends GetView<PageLogic> {
     return Scaffold(
       body: Center(
         child: Obx(
-          () => controller.treutel.value
+          () => controller.walsh.value
               ? const CircularProgressIndicator(color: Colors.blue)
               : buildError(),
         ),
@@ -26,7 +26,7 @@ class FirstYaView extends GetView<PageLogic> {
         children: [
           IconButton(
             onPressed: () {
-              controller.liahy();
+              controller.mfpbuhwe();
             },
             icon: const Icon(
               Icons.restart_alt,
